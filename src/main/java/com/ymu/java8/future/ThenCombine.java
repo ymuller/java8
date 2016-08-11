@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
  *
  * Created by Yannick Muller on 11/08/2016.
  */
-public class FutureCombine {
+public class ThenCombine {
 
     private static int TIME_TO_WAIT_IN_MILLISECONDS = 2000;
     private static int TIME_TO_WAIT_IN_MILLISECONDS_2 = 4000;
@@ -20,7 +20,7 @@ public class FutureCombine {
 
     public static void main(String[] args) throws Exception
     {
-        FutureCombine f = new FutureCombine();
+        ThenCombine f = new ThenCombine();
         f.doThenCombine();
     }
 
